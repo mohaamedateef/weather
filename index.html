@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Weather App" />
+    <meta name="author" content="Mohamed Atef Mohamed" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index-style.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light py-4">
+      <div class="container">
+        <a class="navbar-brand d-flex" href="#">
+          <img src="images/logo.png" />
+          <div class="logo-info ms-3">
+            <h1 class="fs-5 text-white">Weather</h1>
+            <h3 class="fs-6">Get Weather</h3>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item me-3">
+              <a class="nav-link text-white active" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="#">News</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="#">Photo</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="bg-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form position-relative">
+              <input
+                type="text"
+                placeholder="Find your location..."
+                class="form-control border-0 rounded-pill text-white py-3 search"
+              />
+              <button
+                class="btn btn-info text-white rounded-pill position-absolute py-2"
+              >
+                Find
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="forecast">
+      <div class="container">
+        <div class="row forecast-container gy-2"></div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="form position-relative mb-md-0 mb-sm-3">
+              <input
+                type="text"
+                placeholder="Enter your email to subscribe..."
+                class="form-control border-0 rounded-pill text-white py-3"
+              />
+              <button
+                class="btn btn-info text-white rounded-pill position-absolute py-2"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="col-md-3 offset-md-1 text-sm-center">
+            <div class="social">
+              <a href="#"
+                ><i
+                  class="fa-brands fa-facebook-f rounded-circle text-center"
+                ></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands fa-twitter rounded-circle text-center"></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-google-plus rounded-circle text-center"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-pinterest rounded-circle text-center"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="py-3">
+            <p>
+              Copyright 2014 Company name. Designed by Themezy. All rights
+              reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
