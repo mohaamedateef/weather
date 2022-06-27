@@ -38,13 +38,7 @@ nav.navbar {
   min-height: 350px;
   padding: 70px 0px;
 }
-.bg-img button {
-  top: 5px;
-  right: 5px;
-  bottom: 5px;
-  padding: 0px 40px;
-  background-color: #009ad8;
-}
+
 .number {
   font-size: 4.25rem;
 }
